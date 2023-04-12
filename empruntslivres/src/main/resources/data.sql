@@ -1,0 +1,1 @@
+insert into book(isbn,auteur,titre,editeur,edition) values('9782081416000','Emile Zola','Germinal','Flammarion','2017')
