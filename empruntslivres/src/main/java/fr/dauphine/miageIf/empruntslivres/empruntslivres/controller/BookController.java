@@ -15,8 +15,28 @@ public class BookController {
     @Autowired
     private BookRepository bookRepository;
 
+    @GetMapping("/books")
+    public List<Book> getBooks() {
+        return bookRepository.findAll();
+    }
+
     @GetMapping("/books/{isbn}")
-    public List<Book> getBooks(@PathVariable String isbn) {
+    public List<Book> getBooksByIsbn(@PathVariable String isbn) {
         return bookRepository.findByIsbn(isbn);
+    }
+
+    @GetMapping("/books/{titre}")
+    public List<Book> getBooksByTitre(@PathVariable String titre) {
+        return bookRepository.findByTitre(titre);
+    }
+
+    @GetMapping("/books/{editeur}")
+    public List<Book> getBooksByEditeur(@PathVariable String editeur) {
+        return bookRepository.findByEditeur(editeur);
+    }
+
+    @GetMapping("/books/{edition}")
+    public List<Book> getBooksByEdition(@PathVariable int edition) {
+        return bookRepository.findByEdition(edition);
     }
 }
