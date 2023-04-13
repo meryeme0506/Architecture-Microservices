@@ -36,7 +36,7 @@ public class BookController {
     }
 
     @GetMapping("/books/{edition}")
-    public List<Book> getBooksByEdition(@PathVariable int edition) {
+    public List<Book> getBooksByEdition(@PathVariable Long edition) {
         return bookRepository.findByEdition(edition);
     }
 }

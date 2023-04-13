@@ -10,19 +10,19 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Book {
+public class Reader {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
-    @Column(name="isbn")
-    private String isbn;
-    @Column(name="auteur")
-    private String auteur;
-    @Column(name="titre")
-    private String titre;
-    @Column(name="editeur")
-    private String editeur;
-    @Column(name="edition")
-    private Long edition;
+    @Column(name="genre")
+    private String genre;
+    @Column(name="nom")
+    private String nom;
+    @Column(name="prenom")
+    private String prenom;
+    @Column(name="date_naissance")
+    private String date_naissance;
+    @Column(name="adresse")
+    private int adresse;
 
 }
