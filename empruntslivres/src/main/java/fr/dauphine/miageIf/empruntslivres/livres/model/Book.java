@@ -1,9 +1,8 @@
-package fr.dauphine.miageIf.empruntslivres.empruntslivres.model;
+package fr.dauphine.miageIf.empruntslivres.livres.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Generated;
 import lombok.NoArgsConstructor;
 
 @Entity

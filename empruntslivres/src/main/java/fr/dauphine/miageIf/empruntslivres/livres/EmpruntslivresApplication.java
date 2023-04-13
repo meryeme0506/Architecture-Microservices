@@ -1,4 +1,4 @@
-package fr.dauphine.miageIf.empruntslivres.empruntslivres;
+package fr.dauphine.miageIf.empruntslivres.livres;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package fr.dauphine.miageIf.empruntslivres.empruntslivres.repository;
+package fr.dauphine.miageIf.empruntslivres.livres.repository;
 
-import fr.dauphine.miageIf.empruntslivres.empruntslivres.model.Book;
+import fr.dauphine.miageIf.empruntslivres.livres.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 
