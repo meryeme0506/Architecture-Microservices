@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfa185a7-7c09-46e2-b315-629ad7722a2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Reader/src/main/java/fr/dauphine/miageIf/empruntslivres/reader/controller/ReaderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reader/src/main/java/fr/dauphine/miageIf/empruntslivres/reader/repository/ReaderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/src/main/java/fr/dauphine/miageIf/empruntslivres/emprunts/EmpruntsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/src/main/java/fr/dauphine/miageIf/empruntslivres/emprunts/medel/Emprunt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emprunts/src/test/java/fr/dauphine/miageIf/empruntslivres/emprunts/EmpruntsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/EmpruntslivresApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/controller/LoanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/controller/ReaderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/model/Loan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/model/Reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/repository/LoanRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dauphine/miageIf/empruntslivres/livres/repository/ReaderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/dauphine/miageIf/empruntslivres/empruntslivres/EmpruntslivresApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/src/main/java/fr/dauphine/miageIf/empruntslivres/lecteurs/LecteursApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/src/main/java/fr/dauphine/miageIf/empruntslivres/lecteurs/medel/Lecteur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecteurs/src/test/java/fr/dauphine/miageIf/empruntslivres/lecteurs/LecteursApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OJbstE4jwHXZ9KUf214ZL71eFy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/meryeme.haman/Documents/Dauphine/M2-IF/Partie 2/Syst Dis/Architecture-Microservices/empruntslivres",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redshift"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EmpruntslivresApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="empruntslivres" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fr.dauphine.miageIf.empruntslivres.empruntslivres.EmpruntslivresApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfa185a7-7c09-46e2-b315-629ad7722a2b" name="Changes" comment="" />
+      <created>1681281843217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681281843217</updated>
+      <workItem from="1681281845245" duration="12514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
