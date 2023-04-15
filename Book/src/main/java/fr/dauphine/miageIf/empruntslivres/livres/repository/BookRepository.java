@@ -18,6 +18,6 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 
     List<Book> findByEditeur(String editeur);
 
-    List<Book> findByEdition(int edition);
+    List<Book> findByEdition(Long edition);
 
 }
