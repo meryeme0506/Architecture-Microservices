@@ -37,12 +37,6 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>fr.dauphine.miageIf.empruntslivres</groupId>
-			<artifactId>lecteurs</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<name>lecteurs</name>
-		</dependency>
-		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>

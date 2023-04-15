@@ -15,12 +15,12 @@ public class Loan {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
     @Column(name="isbn")
-    private String isbn;
-    @Column(name="lecteur")
-    private Reader lecteur;
+    private String bookIsbn;
+    @Column(name="reader_id")
+    private long readerId;
     @Column(name="date_pret")
-    private LocalDate date_pret;
+    private LocalDate datePret;
     @Column(name="date_retour")
-    private LocalDate date_retour;
+    private LocalDate dateRetour;
 }
 

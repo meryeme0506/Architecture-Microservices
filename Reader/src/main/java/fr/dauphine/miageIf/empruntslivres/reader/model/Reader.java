@@ -1,4 +1,4 @@
-package fr.dauphine.miageIf.empruntslivres.reader.medel;
+package fr.dauphine.miageIf.empruntslivres.reader.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

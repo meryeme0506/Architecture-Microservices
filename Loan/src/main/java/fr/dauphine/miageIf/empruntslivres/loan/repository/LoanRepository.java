@@ -4,12 +4,13 @@ import fr.dauphine.miageIf.empruntslivres.loan.model.Loan;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface LoanRepository extends JpaRepository<Loan, Long>  {
 
     List<Loan> findAll();
 
-    List<Loan> findById(Long id);
+    Optional<Loan> findById(Long id);
 
     List<Loan> findByISBN(String isbn);
 
