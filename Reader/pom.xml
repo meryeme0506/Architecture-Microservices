@@ -11,7 +11,7 @@
 	<groupId>fr.dauphine.miageIf.empruntslivres</groupId>
 	<artifactId>lecteurs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lecteurs</name>
+	<name>readers</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -37,11 +37,6 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
@@ -62,6 +57,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>

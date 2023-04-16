@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
+@Table(name="reader")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,9 +20,8 @@ public class Reader {
     private String nom;
     @Column(name="prenom")
     private String prenom;
-    @Column(name="date_naissance")
-    private String date_naissance;
+    @Column(name="dateNaissance")
+    private String dateNaissance;
     @Column(name="adresse")
-    private int adresse;
-
+    private String adresse;
 }

@@ -1,0 +1,832 @@
+{
+	"info": {
+		"_postman_id": "55e5ed17-c9ba-46d5-9023-26aacb9a6304",
+		"name": "library-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26926803"
+	},
+	"item": [
+		{
+			"name": "book api",
+			"item": [
+				{
+					"name": "Book 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"titre\": \"Les Châtiments\",\n\"isbn\":\"978-2013965535\",\n\"editeur\":\"Hachette Livre BNF\" ,\n\"auteur\": \"Victor Hugo\",\n\"edition\": 2013}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/books/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"titre\": \"Notre-Dame de Paris\",\n\"isbn\":\"978-2253004228\",\n\"editeur\":\"Le Livre de Poche\" ,\n\"auteur\": \"Victor Hugo\",\n\"edition\": 2013\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/books/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"titre\": \"Les contemplations\",\n\"isbn\":\"978-2016262474\",\n\"editeur\":\"Hachette Livre BNF\" ,\n\"auteur\": \"Victor Hugo\",\n\"edition\": 2016}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/books/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ISBN",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/books/isbn/978-2016262474",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"isbn",
+								"978-2016262474"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Auteur",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/books/auteur/Victor Hugo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"auteur",
+								"Victor Hugo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Titre",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/books/titre/Les contemplations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"titre",
+								"Les contemplations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edition",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/books/edition/2016",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"edition",
+								"2016"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editeur",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/books/editeur/Le Livre de Poche",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"editeur",
+								"Le Livre de Poche"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Auteur",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"titre\": \"Notre-Dame de Paris\",\n\"isbn\":\"978-2253004228\",\n\"editeur\":\"Le Livre de Poche\" ,\n\"auteur\": \"Meryeme HAMAN\",\n\"edition\": 2023\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/books/update/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"update",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/books/delete/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reader api",
+			"item": [
+				{
+					"name": "Reader 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"nom\": \"Dubois\",\n\"prenom\": \"Jean-Paul\",\n\"dateNaissance\": \"1950-05-20\",\n\"adresse\": \"15 rue des Champs 75001 Paris 1er\",\n\"genre\":\"M\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/readers/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reader 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"nom\": \"PATHA\",\n\"prenom\": \"Emilie\",\n\"dateNaissance\": \"1998-05-20\",\n\"adresse\": \"Square leroy 75001 Paris 1er\",\n\"genre\":\"F\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/readers/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reader to delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"nom\": \"Dubois\",\n\"prenom\": \"Jean-Paul\",\n\"dateNaissance\": \"1950-05-20\",\n\"adresse\": \"15 rue des Champs 75001 Paris 1er\",\n\"genre\":\"M\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/readers/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Readers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/readers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/readers/id/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"id",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Nom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/readers/nom/PATHA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"nom",
+								"PATHA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Prenom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/readers/prenom/Jean-Paul",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"prenom",
+								"Jean-Paul"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Date de naissance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/readers/date/1950-05-20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"date",
+								"1950-05-20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Adresse",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/readers/adresse/Square leroy 75001 Paris 1er",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"adresse",
+								"Square leroy 75001 Paris 1er"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update reader",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 3,\n        \"genre\": \"F\",\n        \"nom\": \"HAMAN\",\n        \"prenom\": \"Mimi\",\n        \"dateNaissance\": \"2000-05-20\",\n        \"adresse\": \"4 Square leroy 75001 Paris 1er\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/readers/update/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"update",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete Reader",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/readers/delete/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"readers",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "loan api",
+			"item": [
+				{
+					"name": "Loan 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/create/978-2013965535/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"create",
+								"978-2013965535",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Loan 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/create/978-2253004228/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"create",
+								"978-2253004228",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Loan 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/create/978-2013965535/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"create",
+								"978-2013965535",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Return loan 2 Today",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/returnToday/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"returnToday",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Return loan in 1 month",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/return/1/2023-05-16",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"return",
+								"1",
+								"2023-05-16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Updat loan date",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 1,\n    \"bookIsbn\": \"978-2013965535\",\n    \"readerId\": 2,\n    \"datePret\": \"2023-02-16\",\n    \"dateRetour\": null\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/loans/update/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Loans",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Loan Date",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/datePret/2023-04-16",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"datePret",
+								"2023-04-16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book Isbn",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/isbn/978-2013965535",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"isbn",
+								"978-2013965535"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reader Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/reader/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"reader",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete loan 3",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans/delete/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Loans",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/loans",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"loans"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

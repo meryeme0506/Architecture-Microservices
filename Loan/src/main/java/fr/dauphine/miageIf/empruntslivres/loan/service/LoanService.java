@@ -18,57 +18,37 @@ public class LoanService {
     @Autowired
     private LoanRepository loanRepository;
 
-    @Autowired
-    private RestTemplate restTemplate;
 
     public Object getBookByIsbn(String isbn) {
-        String url = "http://localhost:8000/books/isbn/" + isbn;
+        String url = "http://localhost:8000/api/books/isbn/" + isbn;
         try {
+            RestTemplate restTemplate= new RestTemplate();
             ResponseEntity<Object> response = restTemplate.getForEntity(url, Object.class, isbn);
             return response.getBody();
         } catch (HttpClientErrorException e) {
             if (e.getStatusCode() == HttpStatus.NOT_FOUND) {
-                // Handle the case when the book is not found
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Book with ISBN " + isbn + " not found");
             } else {
-                // Handle other HTTP errors
                 throw e;
             }
         }
     }
 
     public Object getReaderById(long readerId) {
-        String url = "http://localhost:8001/readers/id/" + readerId;
+        String url = "http://localhost:8001/api/readers/id/" + readerId;
         try {
+            RestTemplate restTemplate= new RestTemplate();
             ResponseEntity<Object> response = restTemplate.getForEntity(url, Object.class, readerId);
             return response.getBody();
         } catch (HttpClientErrorException e) {
             if (e.getStatusCode() == HttpStatus.NOT_FOUND) {
-                // Handle the case when the user is not found
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User with ID " + readerId + " not found");
             } else {
-                // Handle other HTTP errors
                 throw e;
             }
         }
     }
 
-    public Loan createLoan(String bookIsbn, long reader) {
-
-        Object livre = getBookByIsbn(bookIsbn);
-        Object user = getReaderById(reader);
-
-        if (livre != null && user != null) {
-            Loan loan = new Loan();
-            loan.setBookIsbn(bookIsbn);
-            loan.setReaderId(reader);
-            loan.setDatePret(LocalDate.now());
-            loan.setDateRetour(null);
-
-            return loanRepository.save(loan);
-        }
-        return null;
-    }
 }
 
 

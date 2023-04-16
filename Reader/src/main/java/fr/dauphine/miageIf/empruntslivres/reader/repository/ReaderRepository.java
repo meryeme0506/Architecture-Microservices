@@ -16,7 +16,7 @@ public interface ReaderRepository extends JpaRepository<Reader, Long> {
 
     List<Reader> findByPrenom(String prenom);
 
-    List<Reader> findByDate(String date);
+    List<Reader> findByDateNaissance(String date);
 
     List<Reader> findByAdresse(String adresse);
 

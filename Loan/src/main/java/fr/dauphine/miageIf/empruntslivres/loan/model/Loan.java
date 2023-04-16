@@ -8,6 +8,7 @@ import java.time.LocalDate;
 
 @Entity
 @Data
+@Table(name="loan")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Loan {
@@ -16,11 +17,11 @@ public class Loan {
     private Long id;
     @Column(name="isbn")
     private String bookIsbn;
-    @Column(name="reader_id")
+    @Column(name="readerId")
     private long readerId;
-    @Column(name="date_pret")
+    @Column(name="datePret")
     private LocalDate datePret;
-    @Column(name="date_retour")
+    @Column(name="dateRetour")
     private LocalDate dateRetour;
 }
 
