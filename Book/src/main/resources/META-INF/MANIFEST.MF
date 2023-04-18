@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Main-Class: fr.dauphine.miageIf.empruntslivres.livres.EmpruntslivresAppl
+ ication
+Class-Path: spring-data-commons-3.0.4.jar spring-orm-6.0.7.jar snakeyaml
+ -1.33.jar jakarta.persistence-api-3.1.0.jar spring-boot-actuator-3.0.5.
+ jar spring-boot-autoconfigure-3.0.5.jar jackson-annotations-2.14.2.jar 
+ HikariCP-5.0.1.jar jul-to-slf4j-2.0.7.jar checker-qual-3.5.0.jar jaxb-c
+ ore-4.0.2.jar istack-commons-runtime-4.1.1.jar hibernate-core-6.1.7.Fin
+ al.jar micrometer-observation-1.10.5.jar spring-jcl-6.0.7.jar spring-da
+ ta-jpa-3.0.4.jar h2-2.1.214.jar logback-core-1.4.6.jar spring-beans-6.0
+ .7.jar jakarta.inject-api-2.0.0.jar lombok-1.18.24.jar spring-boot-star
+ ter-web-3.0.5.jar jakarta.transaction-api-2.0.1.jar logback-classic-1.4
+ .6.jar jackson-databind-2.14.2.jar micrometer-commons-1.10.5.jar classm
+ ate-1.5.1.jar txw2-4.0.2.jar HdrHistogram-2.1.12.jar jaxb-runtime-4.0.2
+ .jar jackson-datatype-jdk8-2.14.2.jar byte-buddy-1.12.23.jar jackson-mo
+ dule-parameter-names-2.14.2.jar spring-web-6.0.7.jar jakarta.activation
+ -api-2.1.1.jar LatencyUtils-2.0.3.jar spring-boot-starter-actuator-3.0.
+ 5.jar angus-activation-2.0.0.jar tomcat-embed-el-10.1.7.jar spring-cont
+ ext-6.0.7.jar spring-tx-6.0.7.jar postgresql-42.5.4.jar jandex-2.4.2.Fi
+ nal.jar jakarta.xml.bind-api-4.0.0.jar spring-boot-starter-jdbc-3.0.5.j
+ ar log4j-api-2.19.0.jar tomcat-embed-websocket-10.1.7.jar micrometer-co
+ re-1.10.5.jar jackson-core-2.14.2.jar spring-boot-starter-json-3.0.5.ja
+ r spring-boot-starter-tomcat-3.0.5.jar spring-boot-starter-logging-3.0.
+ 5.jar spring-boot-starter-aop-3.0.5.jar spring-aspects-6.0.7.jar spring
+ -boot-3.0.5.jar jboss-logging-3.5.0.Final.jar antlr4-runtime-4.10.1.jar
+  slf4j-api-2.0.7.jar log4j-to-slf4j-2.19.0.jar spring-jdbc-6.0.7.jar hi
+ bernate-commons-annotations-6.0.6.Final.jar aspectjweaver-1.9.19.jar sp
+ ring-boot-starter-3.0.5.jar spring-boot-actuator-autoconfigure-3.0.5.ja
+ r jackson-datatype-jsr310-2.14.2.jar spring-core-6.0.7.jar tomcat-embed
+ -core-10.1.7.jar spring-webmvc-6.0.7.jar spring-expression-6.0.7.jar sp
+ ring-boot-starter-data-jpa-3.0.5.jar spring-boot-devtools-3.0.5.jar jak
+ arta.annotation-api-2.1.1.jar spring-aop-6.0.7.jar
+

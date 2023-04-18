@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Main-Class: fr.dauphine.miageIf.empruntslivres.reader.ReaderApplication
+Class-Path: jackson-core-2.14.2.jar spring-boot-starter-jdbc-3.0.5.jar s
+ pring-boot-starter-json-3.0.5.jar checker-qual-3.5.0.jar jackson-annota
+ tions-2.14.2.jar spring-jdbc-6.0.7.jar spring-data-commons-3.0.4.jar sp
+ ring-expression-6.0.7.jar spring-boot-actuator-3.0.5.jar jakarta.inject
+ -api-2.0.0.jar LatencyUtils-2.0.3.jar HdrHistogram-2.1.12.jar hibernate
+ -commons-annotations-6.0.6.Final.jar spring-beans-6.0.7.jar logback-cor
+ e-1.4.6.jar spring-boot-actuator-autoconfigure-3.0.5.jar spring-tx-6.0.
+ 7.jar spring-boot-starter-tomcat-3.0.5.jar aspectjweaver-1.9.19.jar log
+ back-classic-1.4.6.jar jandex-2.4.2.Final.jar micrometer-core-1.10.5.ja
+ r spring-aspects-6.0.7.jar spring-boot-starter-data-jpa-3.0.5.jar txw2-
+ 4.0.2.jar istack-commons-runtime-4.1.1.jar lombok-1.18.26.jar tomcat-em
+ bed-websocket-10.1.7.jar jul-to-slf4j-2.0.7.jar tomcat-embed-core-10.1.
+ 7.jar postgresql-42.5.4.jar jackson-module-parameter-names-2.14.2.jar s
+ pring-boot-3.0.5.jar jakarta.xml.bind-api-4.0.0.jar jboss-logging-3.5.0
+ .Final.jar spring-jcl-6.0.7.jar HikariCP-5.0.1.jar micrometer-commons-1
+ .10.5.jar spring-webmvc-6.0.7.jar jakarta.activation-api-2.1.1.jar clas
+ smate-1.5.1.jar slf4j-api-2.0.7.jar angus-activation-2.0.0.jar spring-w
+ eb-6.0.7.jar log4j-api-2.19.0.jar jaxb-runtime-4.0.2.jar spring-data-jp
+ a-3.0.4.jar jaxb-core-4.0.2.jar jakarta.transaction-api-2.0.1.jar sprin
+ g-core-6.0.7.jar jackson-databind-2.14.2.jar jakarta.persistence-api-3.
+ 1.0.jar spring-aop-6.0.7.jar hibernate-core-6.1.7.Final.jar spring-orm-
+ 6.0.7.jar jackson-datatype-jdk8-2.14.2.jar micrometer-observation-1.10.
+ 5.jar spring-boot-starter-actuator-3.0.5.jar spring-boot-starter-loggin
+ g-3.0.5.jar spring-context-6.0.7.jar spring-boot-autoconfigure-3.0.5.ja
+ r byte-buddy-1.12.23.jar spring-boot-starter-3.0.5.jar jakarta.annotati
+ on-api-2.1.1.jar spring-boot-starter-aop-3.0.5.jar snakeyaml-1.33.jar t
+ omcat-embed-el-10.1.7.jar log4j-to-slf4j-2.19.0.jar spring-boot-devtool
+ s-3.0.5.jar antlr4-runtime-4.10.1.jar spring-boot-starter-web-3.0.5.jar
+  jackson-datatype-jsr310-2.14.2.jar
+

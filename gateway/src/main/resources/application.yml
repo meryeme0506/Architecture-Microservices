@@ -1,0 +1,17 @@
+port: 8080
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: books_route
+          uri: http://localhost:8000/api/books
+          predicates:
+            - Path=/api/books/**
+        - id: readers_route
+          uri: http://localhost:8001/api/readers
+          predicates:
+            - Path=/api/readers/**
+        - id: loans_route
+          uri: http://localhost:8002/api/loans
+          predicates:
+            - Path=/api/loans/**
